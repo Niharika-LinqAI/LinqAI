@@ -1,0 +1,28 @@
+.hero-section {
+  min-height: 100vh;
+  background-image: url('/bg12.png'); /* correct relative path from LandingPage.css */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-position: top;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+
+.cta-section {
+  background: linear-gradient(to right, #6366f1, #3b82f6);
+}

@@ -1,0 +1,19 @@
+.carousel-indicators {
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 6px;
+  background-color: #6c757d;
+  border: none;
+}
+
+.carousel-indicators .active {
+  background-color: #0d6efd; /* Bootstrap Primary Color */
+}
+
+
